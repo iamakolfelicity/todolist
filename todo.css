@@ -1,0 +1,146 @@
+/* body{
+    background-color: beige;
+    
+}
+
+h1{
+    margin-left: 8%;
+}
+table{
+    
+} */
+ /* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c8d6eb;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #5c6bc0;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Container for the to-do list */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #5c6bc0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+    color: #ffcc00;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Task Input and Date Input Styles */
+input[type="text"], input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+    border-color: #5c6bc0;
+    outline: none;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+table th {
+    background-color: #5c6bc0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Button Styling */
+button {
+    background-color: #5c6bc0;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3949ab;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+    
+    table th, table td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
